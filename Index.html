@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Khilano Bakeries</title>
+	<link rel="icon" type="image/png" href="https://imgur.com/vdHUHYl.png">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="responsive.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<!--NAV STARTED-->
+
+<div id="nav" style="background-color:rgba(199, 0, 61, 0.9); height:0vh; width:100vw; transition:0.5s ease-in-out; position:fixed; top:0%; left:0%; z-index:5; overflow: hidden;">
+	
+	<br><br><br>
+	<h2 style="margin-left: 40px; font-family: calibri; color: white;">Top categories:</h2>
+		<ul class="list">
+			<li><a href="" class="list-item-white">Discounts</a></li>
+			<li><a href="" class="list-item-white">Today's deals</a></li>
+			<li><a href="" class="list-item-white">Special offers</a></li>
+			<li><a href="" class="list-item-white">Birthday cakes</a></li>
+		</ul>
+
+		<h2 style="margin-left: 40px; font-family: calibri; color: white;">More categories:</h2>
+		
+		<ul class="list">
+		
+			<li><a href="" class="list-item-white">For Dieting</a></li>
+			<li><a href="" class="list-item-white">Chocolate-Vanilla Mix</a></li>
+			<li><a href="" class="list-item-white">Under 20$</a></li>
+			<li><a href="" class="list-item-white">Butter Scotch</a></li>
+			<li><a href="" class="list-item-white">Italian</a></li>
+			<li><a href="" class="list-item-white">Indian</a></li>
+			<li><a href="" class="list-item-white">Banana truffle</a></li>
+			<li><a href="" class="list-item-white">Pure Cocoa</a></li>
+			<li><a href="" class="list-item-white">Brazilian Chocolate</a></li>
+			
+		</ul>
+		<h3><a href="" style="margin-left: 40px; font-family: calibri; color: white; text-decoration: none;">Aaj kuch achaa karein</a></h3>
+		<h3><a href="" style="margin-left: 40px; font-family: calibri; color: white; text-decoration: none;">Help Center</a></h3>
+		<h3><a href="" style="margin-left: 40px; font-family: calibri; color: white; text-decoration: none;">Give your suggestions</a></h3>
+		<h3><a href="" style="margin-left: 40px; font-family: calibri; color: white; text-decoration: none;">Download App</a></h3>
+</div>
+
+<!--NAV FINISHED-->
+
+<!--**MENU BAR STARTED**-->
+
+<div id="menubar">
+
+	<table height="25%" width="100%" border="0" style="background-color:rgba(199, 0, 61, 0.9);" id="menu1">
+	
+		<tr class="normaltext">
+			<td width="50%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="normaltext">India's Fastest Online Bakery Destination</a></td>	
+			<td width="15%"><a href="" class="normaltext">Aaj Kuch Acha Karein</a></td>
+			<td width="10%"><a href="" class="normaltext">Help Center</a></td>
+			<td width="15%"><a href="" class="normaltext">Give your Suggessions</a></td>
+			<td width="10%"><a href="" class="normaltext">Download App</a></td>
+		</tr>
+	</table>
+
+	<table height="75%" width="100%" border="0" style="background-color:rgba(228, 0, 70, 0.9);" id="menu2">
+		<tr>
+			<td width="5%" id="navholder">
+				<div onClick="navigationBar()" id="navigation-button">
+
+					<div id="bar1"></div>
+					<div id="bar2"></div>
+					<div id="bar3"></div>
+
+				</div>
+			</td>
+			
+			<td width="10%">
+				<center><img src="https://imgur.com/vdHUHYl.png" id="logo"></center>
+			</td>
+
+			<td width="65%" style="text-align: center;" id="searches">
+				<input type="text" placeholder="Search Cakes" class="search"><input type="button" Value="Search" class="searchbutton">
+			</td>
+
+			<td width="5%" style="text-align:center;" id="cart">
+				<a href="" style="color:white;font-size:18;font-family:calibri;text-decoration:none;">Cart</a>
+			</td>
+
+			<td width="5%" id="cartimg">
+				<a href="" style="text-decoration:none;"><img src="https://imgur.com/Lg2zurD.png" height="30px" width="30px"></a>
+			</td>
+
+			<td width="5%" style="text-align:center;" id="signin">
+				<a href="" style="color:white;font-size:18;font-family:calibri;text-decoration:none;">Sign In</a>
+			</td>
+
+			<td width="5%" id="signinimg">
+				<a href="" style="text-decoration:none;"><img src="https://imgur.com/4GaP18L.png" height="25px" width="25px"></a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="" style="text-decoration:none;"><img src="https://imgur.com/Lg2zurD.png" height="25px" width="25px" id="cartinsign"></a>&nbsp;
+			</td>
+		</tr>
+	</table>
+	
+</div>
+
+<!--**MENU BAR FINISHED**-->
+
+<br><br><br><br><br class="break"><br class="break">
+
+<!--**FIRST SECTION STARTED**-->
+
+<div id="section-1">
+
+	<div id="sidebar">
+		
+		<h2 style="margin-left: 40px; font-family: calibri;">Top categories:</h2>
+		
+		<ul class="list">
+			<li><a href="" class="list-item">Discounts</a></li>
+			<li><a href="" class="list-item">Today's deals</a></li>
+			<li><a href="" class="list-item">Special offers</a></li>
+			<li><a href="" class="list-item">Birthday cakes</a></li>
+		</ul>
+
+		<h2 style="margin-left: 40px; font-family: calibri;">More categories:</h2>
+		
+		<ul class="list">
+		
+			<li><a href="" class="list-item">For Dieting</a></li>
+			<li><a href="" class="list-item">Chocolate-Vanilla Mix</a></li>
+			<li><a href="" class="list-item">Under 20$</a></li>
+			<li><a href="" class="list-item">Butter Scotch</a></li>
+			<li><a href="" class="list-item">Italian</a></li>
+			<li><a href="" class="list-item">Indian</a></li>
+			<li><a href="" class="list-item">Banana truffle</a></li>
+			<li><a href="" class="list-item">Pure Cocoa</a></li>
+			<li><a href="" class="list-item">Brazilian Chocolate</a></li>
+			
+		</ul>
+		
+		<div style="height:22%;">
+			<center>
+				<br>
+				<img src="https://imgur.com/SVcnm5D.png" height="90px" width="90px">
+				<br>
+				<font face="calibri">Scan this code to download our android application</font>
+			</center>
+		</div>
+
+	</div>
+
+	<div id="main-image">
+		<img src="https://imgur.com/rCs9sia.jpg" height="100%" width="100%">
+	</div>
+	
+</div>
+	
+	
+<!--**FIRST SECTION FINISHED**-->
+
+<!--**SECTION 2 STARTED**-->
+
+<h3 class="heading">TRENDING PRODUCTS :</h3>
+
+<div class="cakes-holder">
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/DGSB0qJ.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/D31lSmX.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/ZYSbNsa.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/ZYHIwas.jpg">
+	</div>
+	
+</div>
+
+<!--**SECTION 2 FINISHED**-->
+
+<br>
+
+<!--**RANDOM ADVERTISEMENT**-->
+
+<center>
+<img src="https://imgur.com/x08KhpF.jpg" width="90%" style="cursor: pointer;">
+</center>
+
+<!--**RANDOM ADVERTISEMENT FINISHED**-->
+
+<!--**SECTION 3 STARTED**-->
+
+<h3 class="heading">BEST SELLERS :</h3>
+
+<div class="cakes-holder">
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/5OlUEau.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/5Z42MvG.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/pHzO206.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/9EluM14.jpg">
+	</div>
+	
+</div>
+
+<!--**SECTION 3 FINISHED**-->
+
+<!--**SECTION 4 STARTED**-->
+
+<h3 class="heading">DEALS OF THE DAY :</h3>
+
+<div class="cakes-holder">
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/k8LNE5z.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/R0z36tp.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/4zHIBW2.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/w4cr2uc.jpg">
+	</div>
+	
+</div>
+
+<!--**SECTION 4 FINISHED**-->
+
+<!--**SECTION 5 STARTED**-->
+
+<h3 class="heading">ALL TIME FAVORITES :</h3>
+
+<div class="cakes-holder">
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/VUyK9JF.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/qaTkk8r.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">	
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/sldtisv.jpg">
+	</div>
+
+	<div class="cake">
+		<div class="orders">
+			<font face="calibri" size="+3" color="#555">Rs. 2700</font>
+			<br><br>
+			<input type="button" value="Order Now" class="button">
+			<br><br>
+			<input type="image" src="https://imgur.com/VBjaFlG.png" class="buttoncart">
+		</div>
+		<img src="https://imgur.com/39VBMFm.jpg">
+	</div>
+	
+</div>
+
+<!--**SECTION 5 FINISHED**-->
+
+<br>
+
+<!--**RANDOM ADVERTISEMENT 2**-->
+
+<center>
+<img src="https://imgur.com/kKiY7Rt.jpg" width="90%" style="cursor:pointer;">
+</center>
+
+<!--**RANDOM ADVERTISEMENT 2 FINISHED**-->
+
+<br><br class="break">
+
+<!--**FACILITIES SECTION STARTED**-->
+
+<div class="facilities-holder">
+
+	<div class="inset">
+		<center>
+			<br><br class="break">
+			<img src="https://imgur.com/4GRejW9.png">
+			<br>
+			<font face="calibri" size="4" color="#555555"><b>100% SECURE PAYMENTS</b></font>
+			<br><br>
+			<font face="calibri" size="2" color="#999999"><b>All major credit & debit<br>cards accepted here</b></font>
+		</center>
+	</div>
+
+	<div class="inset">
+		<center>
+			<br><br class="break">
+			<img src="https://imgur.com/7gztEpH.png">
+			<br>
+			<font face="calibri" size="4" color="#555555"><b>TRUSTPAY</b></font>
+			<br><br>
+			<font face="calibri" size="2" color="#999999"><b>All major credit & debit<br>cards accepted here</b></font>
+		</center>
+	</div>
+
+	<div class="inset">
+		<center>
+			<br><br class="break">
+			<img src="https://imgur.com/KbxO6RT.png">
+			<br>
+			<font face="calibri" size="4" color="#555555"><b>HELP CENTER</b></font>
+			<br><br>
+			<font face="calibri" size="2" color="#999999"><b>All major credit & debit<br>cards accepted here</b></font>
+		</center>
+	</div>
+
+	<div class="inset">
+			<center>
+			<br><br class="break">
+			<img src="https://imgur.com/D0bbN97.png">
+			<br>
+			<font face="calibri" size="4" color="#555555"><b>SHOP ON THE GO</b></font>
+			<br><br>
+			<font face="calibri" size="2" color="#999999"><b>All major credit & debit<br>cards accepted here</b></font>
+		</center>
+	</div>
+	
+</div>
+
+<!--**FACILITIES SECTION FINISHED**-->
+
+<br>
+
+<!--**FOOTER STARTED**-->
+<div style="width: 100%; background-color:#F5F5F5;">
+
+	<br>
+
+	<table border="0" width="94%" height="30vh" align="center" id="footer">
+
+		<tr style="font-size:15px;color:#333;font-weight:bold; cursor: default;" height="10%">
+			<td width="20%">POLICY INFO</td>
+			<td>COMPANY</td>
+			<td>KHILANO BUSINESS</td>
+			<td>NEED HELP?</td>
+			<td>SUBSCRIBE</td>
+		</tr>
+
+		<tr height="0%">
+			<td width="20%"><a href="">Privacy Policy</a></td>
+			<td width="17%"><a href="">About Us</a></td>
+			<td width="17%"><a href="">Online Shopping</a></td>
+			<td width="16%"><a href="">FAQ</a></td>
+			<td rowspan="2" width="30%">
+			<input type="text" placeholder="Your E-mail Address" class="search-2"><input type="button" value="SUBSCRIBE" class="searchbutton-2">
+			</td>
+		</tr>
+
+		<tr height="0%">
+			<td><a href="">Terms of sale</a></td>
+			<td><a href="">Core Values</a></td>
+			<td><a href="">Sell</a></td>
+			<td><a href="">Contact Us</a></td>
+		</tr>
+
+		<tr height="0%">
+			<td><a href="">Terms of use</a></td>
+			<td><a href="">Careers</a></td>
+			<td><a href="">Advertise</a></td>
+			<td></td>
+			<td rowspan="2">
+			<font color="#666666">Register now to get updates on promotions and coupons.</font><a href="" style="color:cornflowerblue;text-decoration:none;">Or Download our App</a></td>
+		</tr>
+
+		<tr height="0%">
+			<td><a href="">Terms & Condition for English Sign-On</a></td>
+			<td><a href="">Blog</a></td>
+			<td><a href="">Media Enquiries</a></td>
+			<td></td>
+
+		</tr>
+			<tr height="0%">
+			<td><a href="">Report Abuse & Takedown Policy</a></td>
+			<td><a href="">Engineering</a></td>
+			<td><a href="">Be an Affiliate</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+
+		<tr height="0%">
+			<td></td>
+			<td><a href="">Sitemap</a></td>
+			<td><a href="">Khilano Gold</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+
+	</table>
+
+<!--*****RESPONSIVE FOOTER STARTED*****-->
+
+<div class="res-footer">
+	<ul style="list-style: none; padding: 0px; margin: 0px;">
+		<li>
+			<h3 class="res-footer-heading" onClick="footerItem0()">Policy Info <div class="arrow">+</div></h3>
+				<ul class="res-footer-list">
+					<li><a href="">Policy Info</a></li>
+					<li><a href="">Terms of sale</a></li>
+					<li><a href="">Terms of use</a></li>
+					<li><a href="">Terms & Condition for English Sign-On</a></li>
+					<li><a href="">Report Abuse & Takedown Policy</a></li>
+				</ul>
+			<hr width="100%" align="left">
+		</li>
+		<li>
+			<h3 class="res-footer-heading" onClick="footerItem1()">Company <div class="arrow">+</div></h3>
+				<ul class="res-footer-list">
+						<li><a href="">About Us</a></li>
+						<li><a href="">Core Values</a></li>
+						<li><a href="">Careers</a></li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Engineering</a></li>
+						<li><a href="">Sitemap</a></li>
+					</ul>
+			<hr width="100%" align="left">
+		</li>
+		<li>
+			<h3 class="res-footer-heading" onClick="footerItem2()">Khilano Business <div class="arrow">+</div></h3>
+				<ul class="res-footer-list">
+						<li><a href="">Online  Shopping</a></li>
+						<li><a href="">Sell</a></li>
+						<li><a href="">Advertise</a></li>
+						<li><a href="">Media Enquiries</a></li>
+						<li><a href="">Be an Affiliate</a></li>
+						<li><a href="">Khilano Gold</a></li>
+					</ul>
+			<hr width="100%" align="left">
+		</li>
+		<li>
+			<h3 class="res-footer-heading" onClick="footerItem3()">Need Help? <div class="arrow">+</div></h3>
+				<ul class="res-footer-list">
+					<li><a href="">FAQ</a></li>
+					<li><a href="">Contact Us</a></li>
+				</ul>
+			<hr width="100%" align="left">
+		</li>
+	</ul>
+	<br>
+	<font color="#666666">Register now to get updates on promotions and coupons.</font><a href="" style="color:cornflowerblue;text-decoration:none;">Or Download our App</a>
+	
+</div>
+<!--*****RESPONSIVE FOOTER FINISHED*****-->
+
+<br>
+<center>
+<font face="calibri" size="3" color="#666"><b>Designed by : Nidhanshu Sharma</b></font>
+</center>
+<hr width="80%" noshade>
+<br>
+</div>
+</body>
+<script>
+	
+	var list = document.getElementsByClassName("res-footer-list");
+	var arrow = document.getElementsByClassName("arrow");
+	
+	function navigationBar()
+{
+	if(document.getElementById("nav").style.height == "0vh")
+	{
+	document.getElementById("bar1").style.transform="rotate(45deg)";
+	document.getElementById("bar1").style.top="40%";
+	document.getElementById("bar2").style.opacity="0";
+	document.getElementById("bar3").style.transform="rotate(-45deg)";
+	document.getElementById("bar3").style.top="40%";
+	document.getElementById("navigation-button").style.transform="rotate(90deg)";
+	document.getElementById("menu2").bgColor="#c7003d";
+	document.getElementById("nav").style.overflow="auto";
+			if (window.matchMedia('screen and (max-width:768px)').matches)
+			{
+				document.getElementById("nav").style.height="100vh";
+			}
+			else
+			{
+				document.getElementById("nav").style.height="50vh";
+			}
+	}
+	
+	else
+	{
+	document.getElementById("bar1").style.transform="rotate(0deg)";
+	document.getElementById("bar1").style.top="15%";
+	document.getElementById("bar2").style.opacity="1";
+	document.getElementById("bar3").style.transform="rotate(0deg)";
+	document.getElementById("bar3").style.top="65%";
+	document.getElementById("navigation-button").style.transform="rotate(0deg)";
+	document.getElementById("nav").style.height="0vh";
+	document.getElementById("menu2").bgColor="#e40046";
+	}
+}
+	
+function footerItem0()
+{
+	if(list[0].style.display == "block")
+		{
+			list[0].style.display="none";
+			arrow[0].style.transform="rotate(180deg)";
+		}
+	else
+		{
+			list[0].style.display="block";
+			arrow[0].style.transform="rotate(45deg)";
+		}
+}
+	
+function footerItem1()
+{
+	if(list[1].style.display == "block")
+		{
+			list[1].style.display="none";
+			arrow[1].style.transform="rotate(180deg)";
+		}
+	else
+		{
+			list[1].style.display="block";
+			arrow[1].style.transform="rotate(45deg)";
+		}
+}
+	
+function footerItem2()
+{
+	if(list[2].style.display == "block")
+		{
+			list[2].style.display="none";
+			arrow[2].style.transform="rotate(180deg)";
+		}
+	else
+		{
+			list[2].style.display="block";
+			arrow[2].style.transform="rotate(45deg)";
+		}
+}
+	
+function footerItem3()
+{
+	if(list[3].style.display == "block")
+		{
+			list[3].style.display="none";
+			arrow[3].style.transform="rotate(180deg)";
+		}
+	else
+		{
+			list[3].style.display="block";
+			arrow[3].style.transform="rotate(45deg)";
+		}
+}
+</script>
+</html>
